@@ -1,0 +1,53 @@
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="utf-8">
+                <meta name="description" content="job-application form">
+                <meta name="keywords" content="job,application,form,html,css">
+                <meta name="author" content="POOJA YADAV">  
+                <meta name="viewport" content="width = device-width initial-scale=1">
+                <title>job-application</title>
+                <link href="jobsheet.css" rel="stylesheet">
+            </head>
+            <body>
+                <div class="container">
+                    <form action="#">
+                    <div class="head-box">
+                    <p>JOB-APPLICATION FORM</p>
+                    </div>
+                    <p class="text-box">Name</p>
+                    <input class="name-box" type="text" name="First Name" placeholder="Enter your first name">
+                    <input class="name-box" type="text" name="last name" placeholder="Enter your last name">
+                    <br>
+                    <p class="text-box">Email</p>
+                    <input  class="input-box" type="email" name="Email" placeholder="Enter your email">
+                    <br>
+                    <p class="text-box">Phone</p>
+                    <input  class="input-box" type="phone" name="phone" placeholder="MobNumber">
+                    <br>
+                    <p class="text-box">What position are you applying for?</p>
+                    <select name="Positions" class="input-box">
+                        <optgroup >
+                            <option >SELECT THE POSITION</option>
+                            <option value="Manager">MANAGER</option>
+                            <option value="Developer">WEB-DEVELOPER</option>
+                            <option value="Accountant">ACCOUNTANT</option>
+                            <option value="Programmer">PROGRAMMER</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <p class="text-box">Available date to start</p>
+                    <input  class="input-box" type="date" name="DATE">
+                    <br>
+                    <p class="text-box">Additional information</p>
+                    <input class="add-box" type="text" name="Additional-info" placeholder="Additional information">
+                    <br>
+                    <p class="text-box">Upload Resume</p>
+                    <input  type="file" name="filename">
+                    <div class="sub-btn">
+                    <input  class="submit-btn" type="submit">
+                    </div>
+                </form>
+            </div>
+         </body>
+    </html>
