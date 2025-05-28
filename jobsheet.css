@@ -8,6 +8,7 @@ body{
     display:flex;
     justify-content: flex-start;
     background-color: rgb(12, 14, 136);
+    background-image: linear-gradient(to bottom right,#5409DA,#4E71FF,#8DD8FF,#BBFBFF);
     height: 800px;
     width: 700px;
     padding-left: 30px;
