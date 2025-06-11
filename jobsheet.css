@@ -1,4 +1,4 @@
-<style>
+
 body{
     display: flexbox;
     align-items: flex-start;
@@ -69,4 +69,3 @@ p{
     font-weight: bold;
     font-size: larger;
 }
-</style>
